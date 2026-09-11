@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/booknow/:match*",
+      "destination": "https://medcyhospitalad2.vercel.app/booknow/:match*"
+    }
+  ]
+}
