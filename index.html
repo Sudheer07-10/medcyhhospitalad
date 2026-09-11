@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Medical Camp | Medcy Hospitals</title>
+    <meta name="description"
+        content="Register for the Free Pediatrics and Dermatology Medical Camp at Medcy Hospitals, Visakhapatnam.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9KYE0B16S8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9KYE0B16S8');
+    </script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <img src="logo.jpeg" alt="Medcy Hospitals Logo" class="logo">
+            <div class="lang-toggle">
+                <input type="checkbox" id="lang-switch" class="lang-switch">
+                <label for="lang-switch" class="lang-label">
+                    <span class="en-label active">EN</span>
+                    <span class="te-label">తె</span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-en="FREE MEDICAL CAMP" data-te="ఉచిత వైద్య శిబిరం">FREE MEDICAL CAMP</h1>
+                <p class="hero-subtitle" data-en="Pediatrics & Dermatology"
+                    data-te="చర్మవ్యాధుల మరియు పిల్లల వైద్య శిబిరం">Pediatrics & Dermatology</p>
+
+                <div class="hero-details">
+                    <div class="detail-card">
+                        <span class="icon">📅</span>
+                        <div>
+                            <strong data-en="Date" data-te="తేదీ">Date</strong>
+                            <p data-en="19-09-2026, Saturday" data-te="19-09-2026 శనివారం">19-09-2026, Saturday</p>
+                        </div>
+                    </div>
+                    <div class="detail-card">
+                        <span class="icon">⏰</span>
+                        <div>
+                            <strong data-en="Time" data-te="సమయం">Time</strong>
+                            <p data-en="10:00 AM to 06:00 PM" data-te="ఉ 10:00 గం నుండి మ 06:00 గం వరకు">10:00 AM to
+                                06:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-benefits">
+                    <span class="benefit-pill"><span class="icon">🩺</span> <strong data-en="100% Free Consultations"
+                            data-te="ఉచిత సంప్రదింపులు">100% Free Consultations</strong></span>
+                    <span class="benefit-pill"><span class="icon">🔬</span> <strong data-en="20% Off Scans & Lab Tests"
+                            data-te="స్కాన్లు మరియు పరీక్షలపై 20% తగ్గింపు">20% Off Scans & Lab Tests</strong></span>
+                </div>
+            </div>
+
+            <div class="hero-form">
+                <div class="form-wrapper">
+                    <h2 class="section-title text-center" style="font-size: 1.5rem; margin-bottom: 1rem;"
+                        data-en="Register Now" data-te="ఇప్పుడే నమోదు చేసుకోండి">Register Now</h2>
+                    <p class="text-center form-subtitle" style="margin-bottom: 15px; font-size: 0.9rem;"
+                        data-en="Secure your free spot." data-te="ఉచిత స్లాట్‌ను బుక్ చేసుకోండి.">Secure your free spot.
+                    </p>
+
+                    <form id="registrationForm" class="registration-form">
+                        <div class="form-group">
+                            <label for="name" data-en="Name" data-te="పేరు">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" data-en="Phone Number" data-te="ఫోన్ నంబర్">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+91" pattern="[0-9]{10}">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group half-width">
+                                <label for="age" data-en="Age" data-te="వయస్సు">Age</label>
+                                <input type="number" id="age" name="age" required min="0" max="120" placeholder="Years">
+                            </div>
+
+                            <div class="form-group half-width">
+                                <label for="speciality" data-en="Department" data-te="విభాగం">Department</label>
+                                <select id="speciality" name="speciality" required>
+                                    <option value="" disabled selected data-en="Select..." data-te="ఎంచుకోండి...">
+                                        Select...</option>
+                                    <option value="Pediatrics" data-en="Pediatrics" data-te="పిల్లల వైద్యం">Pediatrics
+                                    </option>
+                                    <option value="Dermatology" data-en="Dermatology" data-te="చర్మవ్యాధుల">Dermatology
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="timeSlot" data-en="Preferred Time Slot" data-te="సమయాన్ని ఎంచుకోండి">Preferred
+                                Time Slot</label>
+                            <select id="timeSlot" name="timeSlot" required>
+                                <option value="" disabled selected data-en="Select time..." data-te="సమయం...">Select
+                                    time...</option>
+                                <option value="10:00 AM - 11:00 AM">10:00 AM - 11:00 AM</option>
+                                <option value="11:00 AM - 12:00 PM">11:00 AM - 12:00 PM</option>
+                                <option value="12:00 PM - 01:00 PM">12:00 PM - 01:00 PM</option>
+                                <option value="01:00 PM - 02:00 PM">01:00 PM - 02:00 PM</option>
+                                <option value="02:00 PM - 03:00 PM">02:00 PM - 03:00 PM</option>
+                                <option value="03:00 PM - 04:00 PM">03:00 PM - 04:00 PM</option>
+                                <option value="04:00 PM - 05:00 PM">04:00 PM - 05:00 PM</option>
+                                <option value="05:00 PM - 06:00 PM">05:00 PM - 06:00 PM</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn-primary full-width" id="submitBtn">
+                            <span class="btn-text" data-en="Submit Registration" data-te="నమోదు సమర్పించండి">Submit
+                                Registration</span>
+                            <span class="loader" style="display: none;"></span>
+                        </button>
+                    </form>
+
+                    <div id="successMessage" class="success-message" style="display: none;">
+                        <div class="success-icon"
+                            style="width: 40px; height: 40px; font-size: 20px; margin-bottom: 10px;">✓</div>
+                        <h3 data-en="Success!" data-te="విజయవంతమైంది!" style="font-size: 1.2rem;">Success!</h3>
+                        <p data-en="We will contact you shortly." data-te="మేము త్వరలో మిమ్మల్ని సంప్రదిస్తాము."
+                            style="font-size: 0.9rem;">We will contact you shortly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="doctors-section">
+        <div class="container">
+            <h2 class="section-title text-center" data-en="Meet Our Specialists" data-te="మా నిపుణులు">Meet Our
+                Specialists</h2>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <img src="dr-divya.png" alt="Dr. Divya" class="doctor-img">
+                    <h3 data-en="Dr. Divya" data-te="Dr. దివ్య">Dr. Divya</h3>
+                    <p data-en="Consultant Pediatrician & Neonatologist"
+                        data-te="కన్సల్టెంట్ పీడియాట్రీషియన్ & నియోనేటాలజిస్ట్">Consultant Pediatrician & Neonatologist
+                    </p>
+                    <span class="doc-exp" data-en="🌟 12+ Years Exp • Newborn Care Expert"
+                        data-te="🌟 12+ సంవత్సరాల అనుభవం • నియోనేటల్ నిపుణులు">🌟 12+ Years Exp • Newborn Care
+                        Expert</span>
+                </div>
+                <div class="doctor-card">
+                    <img src="dr-bhavana.png" alt="Dr. Bhavana" class="doctor-img">
+                    <h3 data-en="Dr. Bhavana" data-te="Dr. భావన">Dr. Bhavana</h3>
+                    <p data-en="Consultant Pediatrician & Neonatologist"
+                        data-te="కన్సల్టెంట్ పీడియాట్రీషియన్ & నియోనేటాలజిస్ట్">Consultant Pediatrician & Neonatologist
+                    </p>
+                    <span class="doc-exp" data-en="🌟 10+ Years Exp • Advanced Child Care"
+                        data-te="🌟 10+ సంవత్సరాల అనుభవం • పీడియాట్రిక్ నిపుణులు">🌟 10+ Years Exp • Advanced Child
+                        Care</span>
+                </div>
+                <div class="doctor-card">
+                    <img src="dr-vijitha.png" alt="Dr. Vijitha" class="doctor-img">
+                    <h3 data-en="Dr. Vijitha" data-te="Dr. విజ్ఞత">Dr. Vijitha</h3>
+                    <p data-en="Consultant Dermatologist" data-te="కన్సల్టెంట్ డెర్మటాలజిస్ట్">Consultant Dermatologist
+                    </p>
+                    <span class="doc-exp" data-en="🌟 8+ Years Exp • Advanced Skin Treatments"
+                        data-te="🌟 8+ సంవత్సరాల అనుభవం • చర్మ వ్యాధుల నిపుణులు">🌟 8+ Years Exp • Advanced Skin
+                        Treatments</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="contact-info">
+                <h3 data-en="Contact Us" data-te="మమ్మల్ని సంప్రదించండి">Contact Us</h3>
+                <p>📞 <a href="tel:+919502534222">+91 95025 34222</a></p>
+                <p>📍 <span data-en="Plot No. 9A, Health City, Arilova, Visakhapatnam - 530040"
+                        data-te="ప్లాట్ నెం. 9A, హెల్త్ సిటీ, ఆరిలోవ, విశాఖపట్నం - 530040">Plot No. 9A, Health City,
+                        Arilova, Visakhapatnam - 530040</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
